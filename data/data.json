@@ -1,0 +1,453 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Ice Age",
+      "description": "Set during the prehistoric Ice Age, a woolly mammoth, a sloth, and a saber-toothed tiger team up to return a human baby to its tribe while forming an unlikely friendship.",
+      "time": "1h 21m",
+      "genre": "Family",
+      "year": 2002,
+      "lead": "Ray Romano",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Ice_Age_%282002_film%29_poster.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Cars",
+      "description": "A hotshot race car named Lightning McQueen gets stranded in a small town and learns important lessons about friendship, humility, and teamwork.",
+      "time": "1h 57m",
+      "genre": "Family",
+      "year": 2006,
+      "lead": "Owen Wilson",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/34/Cars_2006.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Jurassic Park",
+      "description": "A billionaire creates a theme park featuring cloned dinosaurs, but when the park’s security systems fail, visitors must fight for survival.",
+      "time": "2h 7m",
+      "genre": "Sci-fi",
+      "year": 1993,
+      "lead": "Sam Neill",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Iron Man",
+      "description": "After being captured, billionaire engineer Tony Stark builds a high-tech armored suit to escape and becomes the superhero Iron Man.",
+      "time": "2h 6m",
+      "genre": "Action",
+      "year": 2008,
+      "lead": "Robert Downey Jr.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Avengers",
+      "description": "Earth’s mightiest heroes join forces to stop Loki and an alien invasion threatening the planet.",
+      "time": "2h 23m",
+      "genre": "Action",
+      "year": 2012,
+      "lead": "Robert Downey Jr.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Sherlock Holmes",
+      "description": "Detective Sherlock Holmes and his partner Dr. Watson investigate a mysterious criminal mastermind threatening London.",
+      "time": "2h 8m",
+      "genre": "Thriller",
+      "year": 2009,
+      "lead": "Robert Downey Jr.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Glass Onion: A Knives Out Mystery",
+      "description": "Detective Benoit Blanc travels to a private Greek island to solve a new murder mystery involving a group of wealthy friends.",
+      "time": "2h 19m",
+      "genre": "Thriller",
+      "year": 2022,
+      "lead": "Daniel Craig",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/Glass_Onion_poster.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Mission: Impossible",
+      "description": "Secret agent Ethan Hunt goes on a dangerous mission to uncover a mole within the IMF after his team is betrayed.",
+      "time": "1h 50m",
+      "genre": "Action",
+      "year": 1996,
+      "lead": "Tom Cruise",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/MissionImpossiblePoster.jpg"
+    },
+    {
+      "id": 9,
+      "title": "21 Jump Street",
+      "description": "Two underachieving police officers go undercover as high school students to dismantle a drug ring.",
+      "time": "1h 49m",
+      "genre": "Comedy",
+      "year": 2012,
+      "lead": "Jonah Hill",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/21JumpStreetfilm.jpg"
+    },
+    {
+      "id": 10,
+      "title": "White Chicks",
+      "description": "Two FBI agents go undercover as wealthy socialites to solve a kidnapping plot, leading to a series of outrageous and hilarious situations.",
+      "time": "1h 49m",
+      "genre": "Comedy",
+      "year": 2004,
+      "lead": "Shawn Wayans",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/White_chicks.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Hangover",
+      "description": "After a wild bachelor party in Las Vegas, three friends wake up with no memory of the night before and must retrace their steps to find the missing groom.",
+      "time": "1h 40m",
+      "genre": "Comedy",
+      "year": 2009,
+      "lead": "Bradley Cooper",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Hangoverposter09.jpg"
+    },
+    {
+      "id": 12,
+      "title": "How to Lose a Guy in 10 Days",
+      "description": "A magazine writer and an advertising executive enter a relationship with hidden agendas, each trying to win a bet without the other knowing.",
+      "time": "1h 56m",
+      "genre": "Romance",
+      "year": 2003,
+      "lead": "Kate Hudson",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/07/HowToLoseAGuyimp.jpg"
+    },
+    {
+      "id": 13,
+      "title": "10 Things I Hate About You",
+      "description": "A high school student is paid to date a rebellious girl so her younger sister can start dating, but unexpected romance complicates the plan.",
+      "time": "1h 37m",
+      "genre": "Romance",
+      "year": 1999,
+      "lead": "Heath Ledger",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/95/10_Things_I_Hate_About_You_film.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Good Will Hunting",
+      "description": "A brilliant but troubled young janitor at MIT is discovered to be a mathematical genius and must confront his past with the help of a therapist.",
+      "time": "2h 6m",
+      "genre": "Romance",
+      "year": 1997,
+      "lead": "Matt Damon",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png"
+    },
+    {
+      "id": 15,
+      "title": "F1",
+      "description": "A former Formula 1 driver returns to the sport to mentor a young talent while chasing one last shot at glory.",
+      "time": "TBA",
+      "genre": "Action",
+      "year": 2025,
+      "lead": "Brad Pitt",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/F1_%282025_film%29.png"
+    },
+    {
+      "id": 16,
+      "title": "Murder Mystery",
+      "description": "A married couple’s European vacation takes a dangerous turn when they are framed for a billionaire’s murder.",
+      "time": "1h 37m",
+      "genre": "Comedy",
+      "year": 2019,
+      "lead": "Adam Sandler",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/Murder_Mystery_%28film%29.png"
+    },
+    {
+      "id": 17,
+      "title": "Ocean's 8",
+      "description": "Debbie Ocean gathers a team of skilled women to pull off an elaborate heist at the Met Gala in New York City.",
+      "time": "1h 50m",
+      "genre": "Comedy",
+      "year": 2018,
+      "lead": "Sandra Bullock",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/OceansEightPoster.jpeg"
+    },
+    {
+      "id": 18,
+      "title": "Seven",
+      "description": "Two detectives hunt a serial killer who uses the seven deadly sins as motives for his gruesome crimes.",
+      "time": "2h 7m",
+      "genre": "Thriller",
+      "year": 1995,
+      "lead": "Brad Pitt",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Bird Box",
+      "description": "A mother and her children must navigate a post-apocalyptic world blindfolded to avoid supernatural entities that drive people to suicide.",
+      "time": "2h 4m",
+      "genre": "Horror",
+      "year": 2018,
+      "lead": "Sandra Bullock",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Bird_Box_%28film%29.png"
+    },
+    {
+      "id": 20,
+      "title": "A Quiet Place",
+      "description": "A family struggles to survive in a world overrun by blind creatures that hunt by sound.",
+      "time": "1h 30m",
+      "genre": "Horror",
+      "year": 2018,
+      "lead": "Emily Blunt",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png"
+    },
+    {
+      "id": 21,
+      "title": "Scream",
+      "description": "High school student Sidney Prescott and her friends become the targets of a costumed serial killer on the anniversary of her mother's murder.",
+      "time": "1h 51m",
+      "genre": "Horror",
+      "year": 1996,
+      "lead": "Neve Campbell",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Scream_%281996_film%29_poster.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Pulp Fiction",
+      "description": "Four intertwining tales of crime and violence in Los Angeles.",
+      "time": "2h 34m",
+      "genre": "Thriller",
+      "year": 1994,
+      "lead": "John Travolta",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Forrest Gump",
+      "description": "The life of an Alabama man named Forrest Gump and his experiences in the 20th-century United States.",
+      "time": "2h 22m",
+      "genre": "Comedy",
+      "year": 1994,
+      "lead": "Tom Hanks",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Twilight",
+      "description": "Bella Swan, a teenage girl, is rescued by Edward Cullen, a strange and mysterious boy. Together, they navigate love, secrets, and a vampiric threat.",
+      "time": "2h 2m",
+      "genre": "Romance",
+      "year": 2008,
+      "lead": "Kristen Stewart",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Twilight_%282008_film%29_poster.jpg"
+    },
+    {
+      "id": 25,
+      "title": "John Wick",
+      "description": "John Wick, a legendary hitman, comes out of retirement to seek revenge against the men who killed his dog, a final gift from his recently deceased wife.",
+      "time": "1h 41m",
+      "genre": "Action",
+      "year": 2014,
+      "lead": "Keanu Reeves",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg"
+    },
+    {
+      "id": 26,
+      "title": "End of Evangelion",
+      "description": "Taking place after episode 24 of the series, the film follows the paramilitary organization Nerv as they are attacked by the secret organization Seele.",
+      "time": "1h 30m",
+      "genre": "Sci-fi",
+      "year": 1997,
+      "lead": "Megumi Ogata",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Eoeposter.JPG"
+    },
+    {
+      "id": 27,
+      "title": "Happy Gilmore 2",
+      "description": "Happy Gilmore returns to professional golf to help pay for his daughter's overseas ballet school.",
+      "time": "1h 57m",
+      "genre": "Comedy",
+      "year": 2025,
+      "lead": "Adam Sandler",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Happy_Gilmore_2_poster.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Pixels",
+      "description": "An alien force misinterprets video feeds of classic arcade games as a declaration of war, attacking Earth.",
+      "time": "1h 46m",
+      "genre": "Comedy",
+      "year": 2015,
+      "lead": "Adam Sandler",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/PixelsOfficialPoster.jpg"
+    },
+    {
+      "id": 29,
+      "title": "KPop Demon Hunters",
+      "description": "A K-pop girl group leads double lives as demon hunters while facing a rival boy band of secret demons.",
+      "time": "1h 39m",
+      "genre": "Family",
+      "year": 2025,
+      "lead": "Arden Cho",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg"
+    },
+    {
+      "id": 30,
+      "title": "Deadpool",
+      "description": "Wilson hunts the man responsible for giving him mutant abilities and a scarred physical appearance.",
+      "time": "1h 48m",
+      "genre": "Action",
+      "year": 2016,
+      "lead": "Ryan Reynolds",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png"
+    },
+    {
+      "id": 31,
+      "title": "The Matrix",
+      "description": "A dystopian future in which humanity is unknowingly trapped inside a simulated reality created by intelligent machines.",
+      "time": "2h 16m",
+      "genre": "Sci-fi",
+      "year": 1999,
+      "lead": "Keanu Reeves",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png"
+    },
+    {
+      "id": 32,
+      "title": "Akira",
+      "description": "A biker gang leader's friend develops powerful telekinetic abilities that threaten Neo-Tokyo.",
+      "time": "2h 4m",
+      "genre": "Sci-fi",
+      "year": 1988,
+      "lead": "Mitsuo Iwata",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/AKIRA_%281988_poster%29.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Halloween",
+      "description": "Escaped mental patient Michael Myers returns home to stalk babysitter Laurie Strode.",
+      "time": "1h 31m",
+      "genre": "Horror",
+      "year": 1978,
+      "lead": "Jamie Lee Curtis",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Halloween_%281978%29_theatrical_poster.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Scott Pilgrim vs. the World",
+      "description": "Scott Pilgrim must defeat his girlfriend's seven evil exes to win her heart.",
+      "time": "1h 52m",
+      "genre": "Action",
+      "year": 2010,
+      "lead": "Michael Cera",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Scott_Pilgrim_vs._the_World_teaser.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Return of the Jedi",
+      "description": "Luke Skywalker confronts Darth Vader while the Rebels attempt to destroy the second Death Star.",
+      "time": "2h 14m",
+      "genre": "Sci-fi",
+      "year": 1983,
+      "lead": "Mark Hamill",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/ReturnOfTheJediPoster1983.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Despicable Me",
+      "description": "Gru adopts three orphan girls as part of a villainous scheme but grows attached to them.",
+      "time": "1h 34m",
+      "genre": "Family",
+      "year": 2010,
+      "lead": "Steve Carell",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c0/Despicable_Me_%282010_animated_feature_film%29.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Ace Ventura: Pet Detective",
+      "description": "Animal detective Ace Ventura searches for the Miami Dolphins' missing mascot.",
+      "time": "1h 26m",
+      "genre": "Comedy",
+      "year": 1994,
+      "lead": "Jim Carrey",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/84/Ace_ventura_pet_detective.jpg"
+    },
+    {
+      "id": 38,
+      "title": "The Mask",
+      "description": "A timid bank teller finds a magical mask that transforms him into a chaotic troublemaker.",
+      "time": "1h 41m",
+      "genre": "Comedy",
+      "year": 1994,
+      "lead": "Jim Carrey",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/The_Mask_%28film%29_poster.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Bullet Train",
+      "description": "Assassins aboard a Japanese high-speed train discover their missions are interconnected.",
+      "time": "2h 6m",
+      "genre": "Action",
+      "year": 2022,
+      "lead": "Brad Pitt",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Bullet_Train_%28poster%29.jpeg"
+    },
+    {
+      "id": 40,
+      "title": "Free Guy",
+      "description": "A bank teller discovers he is a non-player character inside a video game.",
+      "time": "1h 55m",
+      "genre": "Comedy",
+      "year": 2021,
+      "lead": "Ryan Reynolds",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Free_Guy_2021_Poster.jpg"
+    }
+  ],
+  "faq": [
+  {
+    "question": "How do I navigate the website?",
+    "answer": "Use the navigation bar at the top of the page. From there you can go to Home, Browse movies, view the Authors page, or open the FAQ page."
+  },
+  {
+    "question": "What can I do on the Browse page?",
+    "answer": "The Browse section allows you to explore movies using different filters so you can quickly find what you're looking for."
+  },
+  {
+    "question": "What filters are available in the Browse section?",
+    "answer": "You can browse movies by Genre, Alphabetical order (A–Z), or by Release Year. Each option shows movies based on the selected filter."
+  },
+  {
+    "question": "How do I add a movie to my favorites?",
+    "answer": "Click the heart icon on the bottom right of a movie card. The movie will be added to your Favorites section."
+  },
+  {
+    "question": "How do I remove a movie from my favorites?",
+    "answer": "Click the heart icon again on a movie that is already in your favorites. This will remove it from the Favorites section."
+  },
+  {
+    "question": "How can I see information about a movie?",
+    "answer": "Hover your mouse over a movie card to see details like the title, genre, release year, and runtime."
+  },
+  {
+    "question": "What is the Recommended section?",
+    "answer": "The Recommended section on the homepage displays a selection of movies that are highlighted for users to explore first."
+  },
+  {
+    "question": "What is the Favorites section used for?",
+    "answer": "The Favorites section stores movies that you have selected using the heart icon so you can quickly access them later."
+  }
+],
+"authors":[
+{
+"name":"Shagun Patel",
+"email":"shagunp1@iastate.edu",
+"image":"../assets/myotherimages/member1pic.jpeg",
+"bio":"I'm a junior majoring in Computer Science. In my free time, I like to play guitar, soccer and run!"
+},
+{
+"name":"Isaiah Stotts",
+"email":"irstotts@iastate.edu",
+"image":"../assets/myotherimages/member2pic.png",
+"bio":"Second Year Computer Science major, minoring in Applied Artificial Intelligence. I'm experienced in Python, C, C++, C#, Java, and HTML. In my free time, I enjoy hanging out with friends, playing games, and watching TV!"
+}
+]
+
+}

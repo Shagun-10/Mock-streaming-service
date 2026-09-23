@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Midterm Project</title>
+    <link rel="stylesheet" href="../assets/styles-member2.css">
+</head>
+<body>
+
+    <!--Navigation bar-->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../content/Browse_AZ.html">Browse</a></li>
+                <li><a href="../author/authors.html">Authors</a></li>
+                <li><a href="../faq/faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Browse A-Z Content-->
+    <main class="content">
+        <section class="filters">
+            <h2>Browse Movies</h2>
+            <div class="filter-bar">
+                <!--The filter and search bar, which appears on all browse pages-->
+                <input type="text" id="searchBar" placeholder="Search movie title...">
+                <select id="sortSelect">
+                    <option value="az">Sort: A-Z</option>
+                    <option value="genre">Sort: Genre</option>
+                    <option value="year">Sort: Newest-Oldest</option>
+                </select>
+                <select id="genreFilter">
+                    <option value="">Genre</option>
+                </select>
+                <select id="yearFilter">
+                    <option value="">Year</option>
+                </select>
+                <select id="leadFilter">
+                    <option value="">Lead Actor</option>
+                </select>
+                <button id="applyFilters">Apply</button>
+            </div>
+        </section>
+        <!--Adds the result list of movies to the sectioned verticle list-->
+        <section class="results">
+            <h2 id="resultsTitle">A-Z</h2>
+            <div id="movieGrid" class="movie-grid"></div>
+        </section>
+    </main>
+
+    <!--Footer with copyright information-->
+    <footer class="footer">
+        <p>Midterm Project by Shagun Patel and Isaiah Stotts</p>
+        <p>© 2026 Mock Streaming Service</p>
+        <p>Bootstrap used under MIT License</p>
+        <p>Movie images and descriptions sourced from Wikipedia</p>
+    </footer>
+
+    <script src="Browse_AZ.js"></script>
+</body>
+</html>

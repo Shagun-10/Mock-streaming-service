@@ -1,0 +1,66 @@
+[
+  {
+    "id": "conversational-assistant",
+    "title": "Conversational Assistant",
+    "description": "Build a prompt that configures an AI to hold natural, context-aware conversations tailored to a specific domain or persona.",
+    "icon": "💬",
+    "owner": "person1",
+    "requiredSections": ["persona", "context", "objective", "constraints"],
+    "optionalSections": ["examples", "tone-guidance", "fallback-behavior"],
+    "allowedConfigurations": ["tone", "verbosity", "outputFormat", "responseLength"],
+    "validationRules": [
+      "persona_min_words",
+      "context_min_words",
+      "no_conflicting_tone",
+      "objective_clarity"
+    ]
+  },
+  {
+    "id": "code-generator",
+    "title": "Code Generator",
+    "description": "Structure a prompt that directs an AI to write, explain, or debug code with precision and adherence to defined standards.",
+    "icon": "⚙️",
+    "owner": "person2",
+    "requiredSections": ["language-spec", "task-description", "input-output", "constraints"],
+    "optionalSections": ["style-guide", "error-handling", "test-cases"],
+    "allowedConfigurations": ["tone", "verbosity", "outputFormat", "codeStyle"],
+    "validationRules": [
+      "language_specified",
+      "task_min_words",
+      "io_examples_present",
+      "no_ambiguous_constraints"
+    ]
+  },
+  {
+    "id": "study-tutor",
+    "title": "Study Tutor",
+    "description": "Design a prompt that shapes an AI into a patient, adaptive tutor capable of explaining concepts at the right level.",
+    "icon": "📚",
+    "owner": "person1",
+    "requiredSections": ["subject", "learner-profile", "learning-objective", "teaching-approach"],
+    "optionalSections": ["assessment-style", "examples", "pacing-instructions"],
+    "allowedConfigurations": ["tone", "verbosity", "outputFormat", "difficultyLevel"],
+    "validationRules": [
+      "subject_min_words",
+      "learner_profile_min_words",
+      "objective_clarity",
+      "teaching_approach_min_words"
+    ]
+  },
+  {
+    "id": "resume-reviewer",
+    "title": "Resume Reviewer",
+    "description": "Craft a prompt that enables an AI to critically evaluate resumes against job requirements and provide actionable feedback.",
+    "icon": "📄",
+    "owner": "person2",
+    "requiredSections": ["job-description", "evaluation-criteria", "feedback-format", "target-audience"],
+    "optionalSections": ["industry-context", "ats-guidelines", "tone-guidance"],
+    "allowedConfigurations": ["tone", "verbosity", "outputFormat", "strictness"],
+    "validationRules": [
+      "job_description_min_words",
+      "criteria_min_words",
+      "format_specified",
+      "no_vague_criteria"
+    ]
+  }
+]
